@@ -1,0 +1,25 @@
+.bottom {
+    margin-top: 50px;
+    background: #688fb9;
+    padding-top: 30px;
+}
+
+.component-logo {
+    max-width: 100%;
+    min-height: 50px;
+    max-height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.top {
+	padding: 48px 0;
+}
+
+.phone {
+    font-size: 29px;
+    line-height: 1.4;
+    text-align: right;
+    word-break: break-word;
+}
