@@ -23,3 +23,36 @@
     text-align: right;
     word-break: break-word;
 }
+
+.carousel-inner > .item > img {
+  width: 640px;
+  height: 360px;
+  background-color: #8080805e; 
+}
+
+.verticalhorizontal {
+    displ/*ay: table-cell;
+    height: 300px;
+    text-align: center;
+    width: 300px;
+    vertical-align: middle;*/
+
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    height: 480px;
+}
+
+.menu {
+	margin-bottom: 10px;
+    background-color: #8080805e;
+    a {
+    	color: #393b3e;
+    }
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 3rem;
+}
