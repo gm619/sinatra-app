@@ -31,12 +31,6 @@
 }
 
 .verticalhorizontal {
-    displ/*ay: table-cell;
-    height: 300px;
-    text-align: center;
-    width: 300px;
-    vertical-align: middle;*/
-
     text-align: center;
     vertical-align: middle;
     margin-left: auto;
@@ -47,12 +41,10 @@
 .menu {
 	margin-bottom: 10px;
     background-color: #8080805e;
-    a {
-    	color: #393b3e;
-    }
+    color: #393b3e;
 }
 
 .nav-link {
     display: block;
-    padding: .5rem 3rem;
+    padding: .5rem 1rem;
 }

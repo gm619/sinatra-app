@@ -4,14 +4,24 @@ require 'sinatra/partial'
 set :partial_template_engine, :erb
 
 get '/' do
-	@title = 'Main'
+  @title = 'Main'
 	erb :index
 end
 
 get '/about' do
-	@title = 'About'
-	erb :about
-end	
+  @title = 'About'
+  erb :about
+end
+
+get '/grinding' do
+  @title = 'Grinding'
+  erb :grinding
+end
+
+get '/caulk' do
+  @title = 'Caulk'
+  erb :caulk
+end
 
 # class SomeApp < Sinatra::Base
 #   configure do
