@@ -48,3 +48,19 @@
     display: block;
     padding: .5rem 1rem;
 }
+
+/* nav bar line */
+/*.my-class .bar {
+    background: #f04c78;
+}*/
+
+.progress-bar {
+    background: linear-gradient(to right, red var(--scroll), transparent 0);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    z-index: 1;
+}
